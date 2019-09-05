@@ -1,3 +1,2 @@
-License Key Generator for IronSoftware products such as IronXL
-
-https://ironsoftware.com/
+License Key Generator for IronSoftware products https://ironsoftware.com/
+such as IronXL https://ironsoftware.com/csharp/excel/
