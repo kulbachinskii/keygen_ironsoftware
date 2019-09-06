@@ -7,9 +7,10 @@ namespace ironsoftware_license_generator
     {
         static void Main()
         {
+            var rnd = new Random();
             var key_array = new string[8]; // Key consists of 8 fields, delimited with '-'
-            key_array[1] = new Random().Next().ToString(); // Random seed
-            key_array[7] = new Random().Next().ToString(); // Random seed
+            key_array[1] = rnd.Next().ToString(); // Random seed
+            key_array[7] = rnd.Next().ToString(); // Random seed
             key_array[0] = "IRONSTUDIO"; // Software name: "IRONXL", "IRONSTUDIO"
 
             // Date is encoded by reversing chars of hex-representation DateTime.Ticks 
